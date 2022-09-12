@@ -11,7 +11,7 @@ class HomeController extends GetxController{
   final picker = ImagePicker();
 
   Future getImage() async {
-    final pickedFile= await picker.getImage(source: ImageSource.gallery);
+    PickedFile? pickedFile= await picker.getImage(source: ImageSource.gallery);
     imageBefore = File(pickedFile!.path);
       update();
     }
