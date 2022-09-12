@@ -1,4 +1,4 @@
-name: untitled3
+name: untitled5
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -29,11 +29,17 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  flutter_native_splash: ^2.2.9
   get:
   flutter:
     sdk: flutter
   image_picker: ^0.8.5+3
   dio: ^4.0.6
+
+flutter_native_splash:
+  color: "#4F7E9E"
+  image: images/splash.png
+  android_gravity: fill
 
 
   # The following adds the Cupertino Icons font to your application.
